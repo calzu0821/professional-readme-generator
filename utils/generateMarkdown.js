@@ -30,10 +30,10 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   const licenseTexts = {
-    MIT: 'MIT License text goes here...',
-    GPL: 'GPL License text goes here...',
-    Apache: 'Apache License text goes here...',
-    MPL: 'MPL License text goes here...',
+    MIT: 'This project is licensed under the MIT License',
+    GPL: 'This project is licensed under the GPL License',
+    Apache: 'This project is licensed under the Apache License',
+    MPL: 'This project is licensed under the MPL License',
     Unlicensed: ''
   };
   
@@ -46,15 +46,15 @@ function generateMarkdown(data) {
 
   ## Description
 
-  ${data.projectDescription}
+  ${data.description}
   
   ## License
   
-  ${renderLicenseBadge(data.projectLicense)}
+  ${renderLicenseBadge(data.license)}
   
-  For more information, please visit: [License Link](${renderLicenseLink(data.projectLicense)})
+  For more information, please visit: [License Link](${renderLicenseLink(data.license)})
   
-  ${renderLicenseSection(data.projectLicense)}
+  ${renderLicenseSection(data.license)}
   
   ## Usage
   

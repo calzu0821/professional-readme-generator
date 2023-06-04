@@ -21,17 +21,17 @@ const questions = [
       },
       {
         type: 'input',
-        name: 'projectTitle',
+        name: 'title',
         message: 'What is your project title?',
       },
       {
         type: 'input',
-        name: 'projectDescription',
+        name: 'description',
         message: 'Please write a short description for your project.',
       },
       {
         type: 'list',
-        name: 'projectLicense',
+        name: 'license',
         message: 'What license should your project have?',
         choices: ['MIT', 'GPL', 'Apache', 'MPL', 'Unlicensed'],
       },

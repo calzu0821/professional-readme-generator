@@ -1,16 +1,16 @@
-# undefined
+# README Generator Project
 
   ## Description
 
-  ;dqjfbekbvrehreoigjrefhw'pojewkfnrefgjer
+  Short Description
   
   ## License
   
-  ![License: MIT](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
+  ![License: APACHE](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
   
-  For more information, please visit: [License Link](https://www.mozilla.org/en-US/MPL/2.0/)
+  For more information, please visit: [License Link](https://www.apache.org/licenses/LICENSE-2.0)
   
-  MPL License text goes here...
+  This project is licensed under the Apache License
   
   ## Usage
   
@@ -30,5 +30,5 @@
   
   ## Questions
   
-  For questions or inquiries, please contact fowiehfefbv via email: qdbqefvbe.
+  For questions or inquiries, please contact calzu0821 via email: cristinaalzuri@gmail.com.
 

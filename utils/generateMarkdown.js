@@ -2,10 +2,10 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const licenseBadges = {
-    MIT: 'https://img.shields.io/badge/License-MIT-yellow.svg',
-    GPL: 'https://img.shields.io/badge/License-GPLv3-blue.svg',
-    Apache: 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
-    MPL: 'https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg',
+    MIT: '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)',
+    GPL: '![License: GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)',
+    Apache: '![License: APACHE](https://img.shields.io/badge/License-Apache%202.0-blue.svg)',
+    MPL: '![License: MIT](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)',
     Unlicensed: ''
   };
 
@@ -75,7 +75,7 @@ function generateMarkdown(data) {
   ## Questions
   
   For questions or inquiries, please contact ${data.username} via email: ${data.email}.
-  
+
 `;
 }
 

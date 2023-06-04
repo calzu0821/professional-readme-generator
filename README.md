@@ -2,15 +2,15 @@
 
   ## Description
 
-  This is a short description for my project!
+  ;dqjfbekbvrehreoigjrefhw'pojewkfnrefgjer
   
   ## License
   
-  https://img.shields.io/badge/License-Apache%202.0-blue.svg
+  ![License: MIT](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
   
-  For more information, please visit: [License Link](https://www.apache.org/licenses/LICENSE-2.0)
+  For more information, please visit: [License Link](https://www.mozilla.org/en-US/MPL/2.0/)
   
-  Apache License text goes here...
+  MPL License text goes here...
   
   ## Usage
   
@@ -30,5 +30,5 @@
   
   ## Questions
   
-  For questions or inquiries, please contact jalzu1007 via email: jalzu1007@gmail.com.
-  
+  For questions or inquiries, please contact fowiehfefbv via email: qdbqefvbe.
+

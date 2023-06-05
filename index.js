@@ -35,6 +35,26 @@ const questions = [
         message: 'What license should your project have?',
         choices: ['MIT', 'GPL', 'Apache', 'MPL', 'Unlicensed'],
       },
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'What command should be used to run tests? Provide examples on how to rune them here.',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Provide instructions and examples for use.'
+    },
+    {
+        type: 'input',
+        name: 'contribute',
+        message: 'What does the user need to know about contributing to the repo?'
+    },
 ];
 
 // TODO: Create a function to write README file

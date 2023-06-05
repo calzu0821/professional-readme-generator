@@ -47,6 +47,20 @@ function generateMarkdown(data) {
   ## Description
 
   ${data.description}
+
+  ## Table of Contents
+
+  * [License](#license)
+  
+  * [Usage](#usage)
+
+  * [Installation](#installation)
+
+  * [Contributing](#Contributing)
+
+  * [Tests](#tests)
+
+  * [Questions](#questions)
   
   ## License
   
@@ -74,7 +88,7 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  For questions or inquiries, please contact ${data.username} via email: ${data.email}.
+  For questions or inquiries, please contact me directly at ${data.email}. You can see more of my work at ${data.username} (https://github.com/calzu0821).
 
 `;
 }

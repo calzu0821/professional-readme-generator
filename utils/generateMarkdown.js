@@ -72,20 +72,20 @@ function generateMarkdown(data) {
   
   ## Usage
   
-  ...
+  ${data.usage}
   
   ## Installation
   
-  ...
-  
+  ${data.installation}
+
   ## Contributing
   
-  ...
-  
+  ${data.contributing}
+
   ## Tests
   
-  ...
-  
+  ${data.tests}
+
   ## Questions
   
   For questions or inquiries, please contact me directly at ${data.email}. You can see more of my work at ${data.username} (https://github.com/calzu0821).

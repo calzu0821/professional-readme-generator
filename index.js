@@ -3,10 +3,6 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 
-// const path = require('path');
-// const {log} = require('console');
-
-
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -42,7 +38,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'test',
+        name: 'tests',
         message: 'What command should be used to run tests? Provide examples on how to rune them here.',
     },
     {
@@ -52,7 +48,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contribute',
+        name: 'contributing',
         message: 'What does the user need to know about contributing to the repo?'
     },
 ];

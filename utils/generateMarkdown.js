@@ -30,10 +30,10 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   const licenseTexts = {
-    MIT: 'This project is licensed under the MIT License',
-    GPL: 'This project is licensed under the GPL License',
-    Apache: 'This project is licensed under the Apache License',
-    MPL: 'This project is licensed under the MPL License',
+    MIT: 'This project is licensed under the MIT License.',
+    GPL: 'This project is licensed under the GPL License.',
+    Apache: 'This project is licensed under the Apache License.',
+    MPL: 'This project is licensed under the MPL License.',
     Unlicensed: ''
   };
   
@@ -43,6 +43,8 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  
+  ${renderLicenseBadge(data.license)}
 
   ## Description
 
@@ -50,11 +52,11 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  * [License](#license)
-  
-  * [Usage](#usage)
-
   * [Installation](#installation)
+
+  * [Usage](#usage)
+  
+  * [License](#license)
 
   * [Contributing](#Contributing)
 
@@ -62,21 +64,19 @@ function generateMarkdown(data) {
 
   * [Questions](#questions)
   
-  ## License
+  ## Installation
   
-  ${renderLicenseBadge(data.license)}
+  ${data.installation}
+
+  ## Usage
+  
+  ${data.usage}
+
+  ## License
   
   For more information, please visit: [License Link](${renderLicenseLink(data.license)})
   
   ${renderLicenseSection(data.license)}
-  
-  ## Usage
-  
-  ${data.usage}
-  
-  ## Installation
-  
-  ${data.installation}
 
   ## Contributing
   

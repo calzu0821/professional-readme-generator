@@ -34,29 +34,29 @@ const questions = [
       {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project?',
+        message: 'What command should be used to install dependencies?',
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'What command should be used to run tests? Provide examples on how to rune them here.',
+        message: 'What command should be used to run tests?',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for use.'
+        message: 'What does the user need to know about using the repository?'
     },
     {
         type: 'input',
         name: 'contributing',
-        message: 'What does the user need to know about contributing to the repo?'
+        message: 'What does the user need to know about contributing to the repository?'
     },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Success!'));
+        err ? console.log(err) : console.log('Success! README Generated!'));
 }
 
 // TODO: Create a function to initialize app

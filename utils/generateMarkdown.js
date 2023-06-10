@@ -72,6 +72,10 @@ function generateMarkdown(data) {
   
   ${data.usage}
 
+  Screen-share video link of the ${data.title} application:
+
+  [${data.title}] https://drive.google.com/file/d/1RRmUEmPdgvW3CtpztPFK9DURM2Oswfcv/view?usp=drive_link
+
   ## License
   
   For more information, please visit: [License Link](${renderLicenseLink(data.license)})
